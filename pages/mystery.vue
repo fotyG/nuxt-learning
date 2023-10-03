@@ -15,12 +15,14 @@
         </li>
       </ul>
     </div>
-    <button
-      class="mt-2 rounded-xl bg-sky-500 px-4 py-2 font-semibold text-white ring-2 ring-sky-800 transition hover:shadow-lg hover:shadow-indigo-900 active:scale-95"
-      @click="items = ['😏', '😐', '😑', '😒', '😕']"
-    >
-      Refresh
-    </button>
+    <div class="box-content">
+      <button
+        class="mt-[2px] box-border rounded-xl border-b-4 border-b-sky-800 bg-sky-500 px-4 py-2 font-semibold text-white ring-2 ring-sky-800 transition-all ease-out hover:shadow-lg hover:shadow-indigo-900 active:mt-[4px] active:translate-y-1 active:border-b-2"
+        @click="items = ['😏', '😐', '😑', '😒', '😕']"
+      >
+        Refresh
+      </button>
+    </div>
   </div>
 </template>
 
