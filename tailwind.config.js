@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -7,8 +8,7 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
   ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+  darkMode: "class",
+  theme: {},
+  plugins: [require("daisyui")],
 };
