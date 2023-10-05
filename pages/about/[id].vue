@@ -6,12 +6,13 @@
         <label tabindex="0" class="btn m-1">Click</label>
         <ul
           tabindex="0"
-          class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+          class="menu dropdown-content rounded-box z-[1] w-52 bg-base-100 p-2 shadow"
         >
           <li><a>Item 1</a></li>
           <li><a>Item 2</a></li>
         </ul>
       </div>
+      <button @click="log">Log</button>
     </div>
     <!-- <div v-if="toaster" class="toast">
       <div class="alert alert-info">
